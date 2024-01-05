@@ -58,6 +58,7 @@ $defaultTimeValue = date("H:i", $defaultAccessTime);
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
+            text-align: center;
         }
 
         .header h1 {
@@ -155,7 +156,7 @@ $defaultTimeValue = date("H:i", $defaultAccessTime);
     </div> -->
 
     <div id="content">
-        <!-- <h2>Add Users</h2> -->
+    <h2>Register Superuser</h2>
 
         <form method="post" action="">
             <label for="full_name">Full Name:</label>

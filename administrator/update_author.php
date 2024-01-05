@@ -120,7 +120,7 @@ try {
 <body>
 <?php include "./adm_nav.php"; ?>
 <?php include "./adm_sidebar.php"; ?>
-    <h2>Update User Details</h2>
+    <h2>Update Authortat Details</h2>
 
     <!-- User Selection Form -->
     <form method="post" action="">
