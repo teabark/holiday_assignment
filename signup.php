@@ -174,8 +174,11 @@ button:hover {
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required><br>
 
-        <label for="user_type">User Type:</label>
-        <input type="text" id="user_type" name="user_type"><br>
+        <label for="user_type">Select User Type:</label>
+                <select id="usertype" name="user_type">
+                    <option value="administrator">Administrator</option>
+                    <option value="author">Author</option> 
+                </select><br>
 
         <label for="access_time">Access Time:</label>
         <input type="time" id="access_time" name="access_time" value="<?php echo $defaultTimeValue; ?>"><br>

@@ -142,8 +142,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
-
+        
         <button type="submit">Login</button>
+        <br/>
+        <br/>
+        <a href="register.php" style="color: white">Click to Register Superuser</a><br><br
 
         <?php
             // Display error messages
